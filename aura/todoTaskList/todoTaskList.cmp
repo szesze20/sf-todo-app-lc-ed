@@ -4,11 +4,11 @@
     <aura:attribute name="items" type="Task[]"/>
     
     <!-- Event registration(s) -->
-    <aura:registerEvent name="change" type="sl2:todoTaskListChange"/>
+    <aura:registerEvent name="change" type="c:todoTaskListChange"/>
     
     <!-- UI element(s) -->
     <aura:iteration items="{!v.items}" var="task">
-        <sl2:todoTaskListItem item="{!task}"
+        <c:todoTaskListItem item="{!task}"
                               close="{!c.handleItemClose}"
                               delete="{!c.handleItemDelete}"
                               edit="{!c.handleItemEdit}"

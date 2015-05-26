@@ -4,11 +4,11 @@
     <aura:attribute name="item" type="Task"/>
     
     <!-- Event registration(s) -->
-    <aura:registerEvent name="close"  type="sl2:todoTaskListItemModify"/>
-    <aura:registerEvent name="create" type="sl2:todoTaskListItemModify"/>
-    <aura:registerEvent name="delete" type="sl2:todoTaskListItemModify"/>
-    <aura:registerEvent name="edit"   type="sl2:todoTaskListItemModify"/>
-    <aura:registerEvent name="reopen" type="sl2:todoTaskListItemModify"/>
+    <aura:registerEvent name="close"  type="c:todoTaskListItemModify"/>
+    <aura:registerEvent name="create" type="c:todoTaskListItemModify"/>
+    <aura:registerEvent name="delete" type="c:todoTaskListItemModify"/>
+    <aura:registerEvent name="edit"   type="c:todoTaskListItemModify"/>
+    <aura:registerEvent name="reopen" type="c:todoTaskListItemModify"/>
     
     <!-- UI element(s) -->
     <div>

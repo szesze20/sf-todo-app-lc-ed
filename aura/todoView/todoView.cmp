@@ -9,8 +9,8 @@
     <aura:handler name="init" value="{!this}" action="{!c.handleInit}"/>
     
     <!-- UI elements -->
-    <sl2:todoTaskList items="{!v.tasks}"
+    <c:todoTaskList items="{!v.tasks}"
                       change="{!c.handleTaskListChange}"/>
-    <sl2:todoTaskListItem item="{!v.newTask}"
+    <c:todoTaskListItem item="{!v.newTask}"
                           create="{!c.handleNewTaskCreate}"/>
 </aura:component>

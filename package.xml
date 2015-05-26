@@ -4,6 +4,8 @@
     <types>
         <members>TaskUtil</members>
         <members>TodoTaskListItemUtil</members>
+        <members>DmlError</members>
+        <members>DmlOperationResult</members>
         <members>TodoViewUtil</members>
         <name>ApexClass</name>
     </types>

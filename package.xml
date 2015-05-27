@@ -14,7 +14,6 @@
         <members>todoTaskList</members>
         <members>todoTaskListChange</members>
         <members>todoTaskListItem</members>
-        <members>todoTaskListItemEdit</members>
         <members>todoTaskListItemModify</members>
         <members>todoView</members>
         <name>AuraDefinitionBundle</name>
